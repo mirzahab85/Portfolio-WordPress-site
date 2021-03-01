@@ -1,0 +1,92 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+element.style {
+		color: red;
+}
+
+	.avia-section-huge .content {
+		padding-top: 60px;
+	}
+
+.template-page {
+	letter-spacing: 0.9px;
+	padding-top: 60px;
+}
+
+/* ABOUT */
+.avia_image {
+			padding-top: 159px;
+}
+.avia-button.avia-size-large, .avia_iconbox_title {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+}
+.avia_textblock {
+	margin-bottom: 10px
+}
+.av-special-heading-tag  {
+	font-weight: 200;
+}
+
+.hr-custom .hr-inner.inner-border-av-border-fat {
+	border-top-width: 4px
+}
+
+/* CONTACT */
+#top .main_color .input-text, #top .main_color input[type='text'], #top .main_color input[type='input'], #top .main_color input[type='password'], #top .main_color input[type='email'], #top .main_color input[type='number'], #top .main_color input[type='url'], #top .main_color input[type='tel'], #top .main_color input[type='search'], #top .main_color textarea, #top .main_color select {
+	background-color: white;
+	border: 1.9px solid red;
+}
+
+div .av_two_fifth {
+	margin-left: 3.8%;
+}
+
+/* FOOTER */
+#footer .widgettitle {
+	color: #ffffff;
+}
+#footer .textwidget,
+#footer p {
+	letter-spacing: 1.2px;
+	color: #b3b3b3;
+	font-weight: 500
+}
+#footer .widget a {
+	color: #b3b3b3;
+	font-size: 16px;
+	font-weight: 600;
+}
+#footer .container  {
+	width: 110%;
+	max-width: 110%!important;
+
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+  
+	
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+     
+}
